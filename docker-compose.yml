@@ -29,8 +29,8 @@ services:
       #- /etc/localtime:/etc/localtime:ro
       - ./odoo-data:/var/lib/odoo
       #- ./entrypoint.sh:/entrypoint.sh
-      #- ./addons:/mnt/extra-addons
-      #- ./etc:/etc/odoo
+      - ./addons:/mnt/extra-addons
+      - ./etc:/etc/odoo
     restart: always # run as a service
 
 #haciendo commit a dev
