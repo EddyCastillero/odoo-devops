@@ -1,0 +1,19 @@
+# Environment variables
+.env
+
+# Python virtual environments
+venv/
+.venv/
+
+# Compiled Python files
+*.py[cod]
+
+# Python cache directory
+__pycache__/
+
+# Odoo specific files
+.odoo-bin
+.odoo-bin-debug
+
+# IDE
+.vscode/
