@@ -12,3 +12,7 @@ hoy 6 julio 2026 aprendi a hacer un repo desde 0 ademas de poder crear llaves SS
 
 ##NOTA
 -seguir investigando sobre proxys, puertos y docker compose
+
+9 julio 2026 -- Creacion de backups y aprendiendo docker compose
+-aprendi como ejecutar comandos de docker compose, para leer procesos dentro de la imagen, para poder ejecutar comandos propios de la imagen, etc.
+# pude hacer un backup de odoo con la imagen usando docker compose exec <nombre de el servicio> <comando>
