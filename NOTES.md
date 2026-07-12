@@ -16,3 +16,7 @@ hoy 6 julio 2026 aprendi a hacer un repo desde 0 ademas de poder crear llaves SS
 9 julio 2026 -- Creacion de backups y aprendiendo docker compose
 -aprendi como ejecutar comandos de docker compose, para leer procesos dentro de la imagen, para poder ejecutar comandos propios de la imagen, etc.
 # pude hacer un backup de odoo con la imagen usando docker compose exec <nombre de el servicio> <comando>
+
+11 jul 2026 
+-BASH aprendi como funcionan principalmente los comandos, es siempre (programa) - (argumento)
+-Importante leer logs de errores 'tar': can't open 'tar' SI corrio pero no encontro el comando 'sudo': command not found sudo NO corrio aqui, por eso no se encontro el argumento
