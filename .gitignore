@@ -17,3 +17,6 @@ __pycache__/
 
 # IDE
 .vscode/
+odoo-data/
+postgresql/
+backups/

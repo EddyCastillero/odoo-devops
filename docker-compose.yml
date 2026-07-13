@@ -1,4 +1,11 @@
 services:
+  web-server:
+    image: nginx:alpine
+    ports:
+      - "8080:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+    restart: always # run as a service
   db:
     image: postgres:18
     user: root
@@ -11,12 +18,11 @@ services:
       - ./postgresql:/var/lib/postgresql/18/docker # Important Change: the PGDATA environment variable of the image was changed to be version specific in PostgreSQL 18 and above⁠
   odoo19:
     image: odoo:19
-    user: root
     depends_on:
       - db
-    ports:
-      - "10019:8069"
-      - "20019:8072" # live chat
+    # ports:
+      #- "10019:8069"
+      #- "20019:8072" # live chat
     tty: true
     command: --
     environment:
@@ -27,8 +33,10 @@ services:
     volumes:
       #- /etc/timezone:/etc/timezone:ro
       #- /etc/localtime:/etc/localtime:ro
-      - odoo-data:/var/lib/odoo
-      - ./entrypoint.sh:/entrypoint.sh
+      - ./odoo-data:/var/lib/odoo
+      #- ./entrypoint.sh:/entrypoint.sh
       - ./addons:/mnt/extra-addons
       - ./etc:/etc/odoo
     restart: always # run as a service
+
+#haciendo commit a dev
