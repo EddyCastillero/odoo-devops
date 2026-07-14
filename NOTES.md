@@ -20,3 +20,8 @@ hoy 6 julio 2026 aprendi a hacer un repo desde 0 ademas de poder crear llaves SS
 11 jul 2026 
 -BASH aprendi como funcionan principalmente los comandos, es siempre (programa) - (argumento)
 -Importante leer logs de errores 'tar': can't open 'tar' SI corrio pero no encontro el comando 'sudo': command not found sudo NO corrio aqui, por eso no se encontro el argumento
+
+13 julio 2026
+-Analizar antes de copiar una parte de codigo de otro repo si es que algo no entiendo por completo
+-Aprendi a instalar temas en odoo y modificar el mismo
+-Entender como estan echos los gitignore sin ./ porque no es una carpeta raiz, sino una carpeta dentro del repo 

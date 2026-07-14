@@ -20,3 +20,4 @@ __pycache__/
 odoo-data/
 postgresql/
 backups/
+addons/clarity_backend_theme_bits/
